@@ -1,0 +1,42 @@
+.header {
+}
+
+.header__container {
+  display: flex;
+}
+
+.header__logo {
+  width: 88px;
+  height: 40.7px;
+}
+
+.header__button {
+  background-color: $firstAcentColor;
+
+  display: flex;
+  //   width: 160px;
+  height: 45px;
+  padding: 21px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  border-radius: 60px;
+  border: none;
+}
+
+.header__button--text {
+  color: #fff;
+
+  font-family: $basefont;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header__button--svg {
+  width: 17.991px;
+  height: 18px;
+  flex-shrink: 0;
+  fill: #fff;
+}
